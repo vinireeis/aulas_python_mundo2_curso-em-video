@@ -6,7 +6,6 @@ e compare-os, mostrando na tela uma mensagem:
 
 x = int(input('Digite o primeiro número: '))
 y = int(input('Digite o segundo número: '))
-
 if x > y:
     print('O primeiro valor é o maior número')
 elif y > x:

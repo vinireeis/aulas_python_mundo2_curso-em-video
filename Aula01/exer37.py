@@ -5,15 +5,14 @@ usuário escolher qual será a base de conversão: 1 para binário 2 para octal
 n = int(input('Digite um número inteiro para ser convertido: '))
 r = int(input('Escolha uma das seguintes opções de conversão:\n1 - para'
               ' binário\n2 - para octal\n3 - para hexadecimal\n '))
-
 if r == 1:
     n = bin(n)
-    print(n)
+    print(f'{n}'[2:])
 elif r == 2:
     n = oct(n)
-    print(n)
+    print(f'{n}'[2:])
 elif r == 3:
     n = hex(n)
-    print(n)
+    print(f'{n}'[2:])
 else:
     print('Opção inválida.')

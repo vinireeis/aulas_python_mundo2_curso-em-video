@@ -11,7 +11,7 @@ r = (x + y) / 2
 if r < 5.0:
     print('-' * 60)
     print('Você está reprovado')
-elif r > 4.9 and r < 6.9:
+elif r > 4.9 and r < 7:
     print('-' * 60)
     print('Você está de recuperação')
 else:
