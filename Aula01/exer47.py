@@ -1,12 +1,5 @@
-'''Tabuada'''
-
-n = 0
-x = int(input('Digite um número para ver sua tabuada: '))
-for r in range(1, 11):
-    n += 1
-    print(f'{x} x {n} = {x * n}')
-
-# Segunda forma de fazer
-x = int(input('Digite um número para ver sua tabuada: '))
-for r in range(1, 11):
-    print(f'{x} x {r} = {x * r}')
+''' Crie um programa que mostre na tela todos os números pares que estão no
+intervalo entre 1 e 50.'''
+for r in range(1, 51):
+    if r % 2 == 0:
+        print(r)
