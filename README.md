@@ -1,2 +1,2 @@
 # Python-Mundo-2
- Python Mundo 2 - Curso em Video
+ Aulas e desafios do curso Python - Mundo 2, fornecido pela plataforma Curso em Video, do Gustavo Guanabara.
