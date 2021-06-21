@@ -24,4 +24,3 @@ while n != 5:
     else:
         print('-' * 60)
         print('Digite uma opção correta')
-        print('-' * 60)
