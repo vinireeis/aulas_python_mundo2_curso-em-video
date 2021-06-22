@@ -21,6 +21,8 @@ while n != 5:
     elif n == 4:
         valor1 = float(input('Informe o primeiro valor: '))
         valor2 = float(input('Informe o segundo valor: '))
+    elif n == 5:
+        print('Fim do programa!')
     else:
         print('-' * 60)
         print('Digite uma opção correta')
