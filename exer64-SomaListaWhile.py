@@ -10,4 +10,3 @@ while n != 999:
     for i in lista:
       result += i
 print(f'foram digitados {len(lista)} números e o resultado é {result}')
-     
