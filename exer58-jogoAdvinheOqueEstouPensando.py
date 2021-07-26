@@ -8,10 +8,10 @@ sort = random.choice(n)
 print('-' * 60)
 cont = 0
 n1 = int(input('O computador está pensando em um número de 0 a 10, digite um'
-               ' número para saber se acertou o mesmo valor: '))
+               ' número e veja se você adivinha o mesmo valor: '))
 print('-' * 60)
 while sort != n1:
-    n1 = int(input('Você errou, tente novamente acertar digitando'
+    n1 = int(input('Você errou, tente novamente digitando'
                    ' um novo número: '))
     cont += 1
     print('-' * 60)
