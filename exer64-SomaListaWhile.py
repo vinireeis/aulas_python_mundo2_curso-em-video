@@ -9,4 +9,4 @@ while n != 999:
     else:
         for i in lista:
             result += i
-print(f'foram digitados {len(lista)} números e o resultado é {result}')
+print(f'foram digitados {len(lista)} números e a soma total é {result}')
