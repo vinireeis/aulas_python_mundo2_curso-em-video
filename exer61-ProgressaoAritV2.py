@@ -1,6 +1,13 @@
-x = int(input('Primeiro termo: '))
+print('-' * 60)
+print('Gerador de PA')
+print('-' * 60)
+primeiro = int(input('Primeiro termo: '))
 r = int(input('Razão: '))
-d = x + (10 - 1) * r
-for i in range(x, d+r, r):
-    print(f'{i}', end=' -> ')
-print('Acabou!')
+termo = primeiro
+cont = 1
+
+while cont <= 10:
+    print(f'{termo} → ', end='')
+    termo += r
+    cont += 1
+print('FIM')
