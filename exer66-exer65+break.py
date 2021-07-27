@@ -3,7 +3,7 @@ lista = []
 result = 0
 
 while n != 999:
-    n = int(input("Digite um novo número: "))
+    n = int(input("Digite um novo número [999 encerrar]: "))
     if n != 999:
         lista.append(n)
     else:
